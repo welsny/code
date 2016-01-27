@@ -1,4 +1,10 @@
 import random
+
+'''
+NU CSA eBoard x EC 
+Yankee Swap 2015
+'''
+
 people = ['Eric', 'Brian', 'Jess', \
 'Michael', 'James', 'Julia', 'Maggie', \
 'April', 'Hannah', 'Brandon', 'Alice', \

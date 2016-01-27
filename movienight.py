@@ -1,3 +1,8 @@
+'''
+NU CSA Events Committee
+Movie Night 2015
+'''
+
 titles = {1: 'Crouching Tiger, Hidden Dragon',
 		  2: 'Shaolin Soccer',
 		  3: '那些年 Apple of my Eye',
@@ -16,8 +21,7 @@ while True:
 
 	try:
 		x = input('Cast your vote: ')
-		if x == 'DONE':
-			break
+		if x == 'DONE': break
 		x = int(x)
 	except:
 		pass
@@ -25,7 +29,6 @@ while True:
 	if x in titles.keys():
 		title = titles[x]
 		votes[title] = votes[title] + 1
-		print(votes)
 		print('\nThank you for your vote! (%s)' % title)
 	else: 
 		print("\nInvalid input: (%s). Please try again: " % x)
